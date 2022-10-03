@@ -92,6 +92,7 @@
                list_number: jsPsych.timelineVariable('list'),
                trialcondition: jsPsych.timelineVariable('prime_condition'),
                subject: subject_id, 
+               
                },
                on_finish: function(data){
                     // score the response as correct or incorrect.
@@ -119,6 +120,8 @@
             trial_duration: 2000
             };
 
+            console.log(data.correct)
+            
             var instruct2 = {
                 type: jsPsychHtmlKeyboardResponse,
                 stimulus: 'You are about to begin the actual experiment.',

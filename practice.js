@@ -22,7 +22,7 @@ var practice =
       "list": "practice"
     },
     {
-      "target": "mercury",
+      "target": '{Q0:mercury}',
       "prompt": "Which planet is closest to the sun?",
       "prime_given": "MERCHANT",
       "prime_condition": "practice",
